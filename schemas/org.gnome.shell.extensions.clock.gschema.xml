@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<schemalist>
+  <schema id="org.gnome.shell.extensions.clock" path="/org/gnome/shell/extensions/clock/">
+    <key name="position" type="s">
+      <default>'right'</default>
+      <summary>Clock position</summary>
+      <description>Choose whether the Eridanian clock appears on the left or right side of the top bar.</description>
+    </key>
+  </schema>
+</schemalist>
