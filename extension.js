@@ -35,7 +35,7 @@ class Indicator extends PanelMenu.Button {
 
         this._label = new St.Label({
             text: getEridianTime(),
-            style: 'font-family: Arial',
+            style_class: 'clock-label',
             y_align: Clutter.ActorAlign.CENTER,
         });
         this.add_child(this._label);
